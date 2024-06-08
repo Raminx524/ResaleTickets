@@ -1,0 +1,587 @@
+{
+  "users": [
+    {
+      "id": "user1",
+      "username": "john_doe",
+      "password": "password123",
+      "userInfo": {
+        "fname": "John",
+        "lname": "Doe",
+        "email": "sb-433feh31084657@business.example.com"
+      }
+    },
+    {
+      "id": "user2",
+      "username": "jane_smith",
+      "password": "password456",
+      "userInfo": {
+        "fname": "Jane",
+        "lname": "Smith",
+        "email": "ramin@gmail.com"
+      }
+    },
+    {
+      "id": "49fd",
+      "username": "nevo",
+      "password": "scdsfgv",
+      "userInfo": {
+        "fname": "asdsafd",
+        "lname": "asfasf",
+        "email": "bitonnevo@gmail.com"
+      }
+    },
+    {
+      "id": "01f0",
+      "username": "omer3110",
+      "password": "ab1234",
+      "userInfo": {
+        "fname": "omer",
+        "lname": "sidi",
+        "email": "omer.sidi10@gmail.com"
+      }
+    },
+    {
+      "id": "32a4",
+      "username": "NEVO",
+      "password": "12345",
+      "userInfo": {
+        "fname": "nevo",
+        "lname": "biton",
+        "email": "nevo@gasodf"
+      }
+    },
+    {
+      "id": "6037",
+      "username": "NEVOw",
+      "password": "12345",
+      "userInfo": {
+        "fname": "nevo",
+        "lname": "biton",
+        "email": "nevo@gasodf.com"
+      }
+    },
+    {
+      "id": "bf55",
+      "username": "nevobiton",
+      "password": "asdasd",
+      "userInfo": {
+        "fname": "nevo",
+        "lname": "biton",
+        "email": "nevus@gmai.com"
+      }
+    },
+    {
+      "id": "eaa7",
+      "username": "nevositon",
+      "password": "asdsw",
+      "userInfo": {
+        "fname": "nevoBVA",
+        "lname": "ASD",
+        "email": "nevo@gmail.com"
+      }
+    },
+    {
+      "id": "fe17",
+      "username": "omer31101",
+      "password": "ab1234",
+      "userInfo": {
+        "fname": "Omer",
+        "lname": "Sidi",
+        "email": "omer.siwewei10@gmail.com"
+      }
+    },
+    {
+      "id": "a86d",
+      "username": "omer3110234",
+      "password": "ab1234",
+      "userInfo": {
+        "fname": "Omer",
+        "lname": "Sidi",
+        "email": "ome44r.sidi10@gmail.com"
+      }
+    },
+    {
+      "id": "045e",
+      "username": "asdasd",
+      "password": "asasd",
+      "userInfo": {
+        "fname": "asdasd",
+        "lname": "asdasd",
+        "email": "aklsswd@gmal.cpm"
+      }
+    }
+  ],
+  "purchasedTickets": [
+    {
+      "id": "1",
+      "userId": "01f0",
+      "category": "sports",
+      "date": "2024-04-10",
+      "time": "18:00",
+      "title": "Football Match",
+      "price": 50,
+      "location": "Stadium A",
+      "serialnumber": "123456789012",
+      "isonsale": false,
+      "user": {
+        "fname": "John",
+        "lname": "Doe",
+        "email": "john.doe@example.com"
+      }
+    },
+    {
+      "id": "2",
+      "userId": "01f0",
+      "category": "concert",
+      "date": "2024-05-11",
+      "time": "19:30",
+      "title": "Rock Concert",
+      "price": 40,
+      "location": "Concert Hall B",
+      "serialnumber": "234567890123",
+      "isonsale": false,
+      "user": {
+        "fname": "Jane",
+        "lname": "Smith",
+        "email": "jane.smith@example.com"
+      }
+    },
+    {
+      "id": "3",
+      "userId": "01f0",
+      "category": "movie",
+      "date": "2024-06-12",
+      "time": "20:15",
+      "title": "Avengers: Endgame",
+      "price": 12,
+      "location": "Cinema C",
+      "serialnumber": "345678901234",
+      "isonsale": false,
+      "user": {
+        "fname": "asdsafd",
+        "lname": "asfasf",
+        "email": "bitonnevo@gmail.com"
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "6",
+      "userId": "user1",
+      "category": "other",
+      "date": "2024-09-15",
+      "time": "23:45",
+      "title": "Music Festival",
+      "price": 80,
+      "location": "Festival Grounds F",
+      "serialnumber": "678901234567",
+      "isonsale": true
+    },
+    {
+      "id": "7",
+      "userId": "49fd",
+      "category": "sports",
+      "date": "2024-10-16",
+      "time": "12:00",
+      "title": "Basketball Game",
+      "price": 60,
+      "location": "Stadium A",
+      "serialnumber": "789012345678",
+      "isonsale": true
+    },
+    {
+      "id": "8",
+      "userId": "user1",
+      "category": "concert",
+      "date": "2024-11-17",
+      "time": "13:15",
+      "title": "Jazz Concert",
+      "price": 50,
+      "location": "Concert Hall B",
+      "serialnumber": "890123456789",
+      "isonsale": true
+    },
+    {
+      "id": "9",
+      "userId": "user1",
+      "category": "movie",
+      "date": "2024-12-18",
+      "time": "14:45",
+      "title": "Star Wars",
+      "price": 15,
+      "location": "Cinema C",
+      "serialnumber": "901234567890",
+      "isonsale": true
+    },
+    {
+      "id": "10",
+      "userId": "user2",
+      "category": "theater",
+      "date": "2024-01-19",
+      "time": "15:30",
+      "title": "Opera Show",
+      "price": 90,
+      "location": "Theater D",
+      "serialnumber": "012345678901",
+      "isonsale": true
+    },
+    {
+      "id": "11",
+      "userId": "49fd",
+      "category": "flight",
+      "date": "2024-02-20",
+      "time": "16:20",
+      "title": "Flight to LA",
+      "price": 200,
+      "location": "Airport E",
+      "serialnumber": "123450987654",
+      "isonsale": true
+    },
+    {
+      "id": "12",
+      "userId": "01f0",
+      "category": "other",
+      "date": "2024-03-21",
+      "time": "17:10",
+      "title": "Comedy Show",
+      "price": 40,
+      "location": "Comedy Club G",
+      "serialnumber": "234561098765",
+      "isonsale": true
+    },
+    {
+      "id": "13",
+      "userId": "user1",
+      "category": "sports",
+      "date": "2024-04-22",
+      "time": "18:40",
+      "title": "Baseball Game",
+      "price": 35,
+      "location": "Stadium A",
+      "serialnumber": "345612109876",
+      "isonsale": true
+    },
+    {
+      "id": "14",
+      "userId": "user2",
+      "category": "concert",
+      "date": "2024-05-23",
+      "time": "19:50",
+      "title": "Pop Concert",
+      "price": 60,
+      "location": "Concert Hall B",
+      "serialnumber": "456723210987",
+      "isonsale": true
+    },
+    {
+      "id": "15",
+      "userId": "49fd",
+      "category": "movie",
+      "date": "2024-06-24",
+      "time": "20:00",
+      "title": "Inception",
+      "price": 10,
+      "location": "Cinema C",
+      "serialnumber": "567834321098",
+      "isonsale": true
+    },
+    {
+      "id": "16",
+      "userId": "01f0",
+      "category": "theater",
+      "date": "2024-07-25",
+      "time": "21:30",
+      "title": "Drama Play",
+      "price": 45,
+      "location": "Theater D",
+      "serialnumber": "678945432109",
+      "isonsale": true
+    },
+    {
+      "id": "17",
+      "userId": "user1",
+      "category": "sports",
+      "date": "2024-08-10",
+      "time": "18:00",
+      "title": "Basketball Game",
+      "price": 55,
+      "location": "Arena A",
+      "serialnumber": "123456789012",
+      "isonsale": true
+    },
+    {
+      "id": "18",
+      "userId": "user2",
+      "category": "concerts",
+      "date": "2024-09-05",
+      "time": "20:00",
+      "title": "Rock Concert",
+      "price": 70,
+      "location": "Concert Hall B",
+      "serialnumber": "234567890123",
+      "isonsale": true
+    },
+    {
+      "id": "19",
+      "userId": "49fd",
+      "category": "movies",
+      "date": "2024-06-15",
+      "time": "19:30",
+      "title": "Action Movie",
+      "price": 12,
+      "location": "Cinema C",
+      "serialnumber": "345678901234",
+      "isonsale": true
+    },
+    {
+      "id": "20",
+      "userId": "01f0",
+      "category": "flights",
+      "date": "2024-07-10",
+      "time": "13:00",
+      "title": "Flight to NYC",
+      "price": 200,
+      "location": "Airport E",
+      "serialnumber": "456789012345",
+      "isonsale": true
+    },
+    {
+      "id": "21",
+      "userId": "user1",
+      "category": "festivals",
+      "date": "2024-08-20",
+      "time": "16:00",
+      "title": "Music Festival",
+      "price": 90,
+      "location": "Festival Ground F",
+      "serialnumber": "567890123456",
+      "isonsale": true
+    },
+    {
+      "id": "22",
+      "userId": "user2",
+      "category": "sports",
+      "date": "2024-09-25",
+      "time": "17:00",
+      "title": "Soccer Match",
+      "price": 50,
+      "location": "Stadium G",
+      "serialnumber": "678901234567",
+      "isonsale": true
+    },
+    {
+      "id": "23",
+      "userId": "49fd",
+      "category": "theater",
+      "date": "2024-10-10",
+      "time": "19:00",
+      "title": "Musical",
+      "price": 60,
+      "location": "Theater H",
+      "serialnumber": "789012345678",
+      "isonsale": true
+    },
+    {
+      "id": "24",
+      "userId": "01f0",
+      "category": "movies",
+      "date": "2024-11-05",
+      "time": "21:00",
+      "title": "Comedy Movie",
+      "price": 10,
+      "location": "Cinema I",
+      "serialnumber": "890123456789",
+      "isonsale": true
+    },
+    {
+      "id": "25",
+      "userId": "user1",
+      "category": "concerts",
+      "date": "2024-12-15",
+      "time": "18:30",
+      "title": "Jazz Concert",
+      "price": 80,
+      "location": "Concert Hall J",
+      "serialnumber": "901234567890",
+      "isonsale": true
+    },
+    {
+      "id": "26",
+      "userId": "user2",
+      "category": "flights",
+      "date": "2024-12-25",
+      "time": "09:00",
+      "title": "Flight to LA",
+      "price": 250,
+      "location": "Airport K",
+      "serialnumber": "012345678901",
+      "isonsale": true
+    },
+    {
+      "id": "27",
+      "userId": "49fd",
+      "category": "festivals",
+      "date": "2024-10-20",
+      "time": "15:00",
+      "title": "Food Festival",
+      "price": 30,
+      "location": "Festival Ground L",
+      "serialnumber": "112345678901",
+      "isonsale": true
+    },
+    {
+      "id": "28",
+      "userId": "01f0",
+      "category": "sports",
+      "date": "2024-11-10",
+      "time": "20:00",
+      "title": "Hockey Game",
+      "price": 60,
+      "location": "Arena M",
+      "serialnumber": "212345678901",
+      "isonsale": true
+    },
+    {
+      "id": "29",
+      "userId": "user1",
+      "category": "theater",
+      "date": "2024-12-01",
+      "time": "19:00",
+      "title": "Stand-up Comedy",
+      "price": 50,
+      "location": "Theater N",
+      "serialnumber": "312345678901",
+      "isonsale": true
+    },
+    {
+      "id": "30",
+      "userId": "user2",
+      "category": "movies",
+      "date": "2024-11-15",
+      "time": "21:00",
+      "title": "Horror Movie",
+      "price": 15,
+      "location": "Cinema O",
+      "serialnumber": "412345678901",
+      "isonsale": true
+    },
+    {
+      "id": "31",
+      "userId": "49fd",
+      "category": "concerts",
+      "date": "2024-10-30",
+      "time": "18:00",
+      "title": "Classical Concert",
+      "price": 75,
+      "location": "Concert Hall P",
+      "serialnumber": "512345678901",
+      "isonsale": true
+    },
+    {
+      "id": "32",
+      "userId": "01f0",
+      "category": "flights",
+      "date": "2024-09-15",
+      "time": "11:00",
+      "title": "Flight to Tokyo",
+      "price": 300,
+      "location": "Airport Q",
+      "serialnumber": "612345678901",
+      "isonsale": true
+    },
+    {
+      "id": "33",
+      "userId": "user1",
+      "category": "festivals",
+      "date": "2024-08-05",
+      "time": "17:00",
+      "title": "Art Festival",
+      "price": 40,
+      "location": "Festival Ground R",
+      "serialnumber": "712345678901",
+      "isonsale": true
+    },
+    {
+      "id": "34",
+      "userId": "user2",
+      "category": "sports",
+      "date": "2024-07-25",
+      "time": "19:00",
+      "title": "Tennis Match",
+      "price": 65,
+      "location": "Stadium S",
+      "serialnumber": "812345678901",
+      "isonsale": true
+    },
+    {
+      "id": "35",
+      "userId": "49fd",
+      "category": "theater",
+      "date": "2024-09-20",
+      "time": "20:00",
+      "title": "Opera",
+      "price": 85,
+      "location": "Theater T",
+      "serialnumber": "912345678901",
+      "isonsale": true
+    },
+    {
+      "id": "36",
+      "userId": "01f0",
+      "category": "movies",
+      "date": "2024-10-15",
+      "time": "22:00",
+      "title": "Sci-fi Movie",
+      "price": 20,
+      "location": "Cinema U",
+      "serialnumber": "213456789012",
+      "isonsale": true
+    },
+    {
+      "id": "37",
+      "userId": "user1",
+      "category": "concerts",
+      "date": "2024-11-10",
+      "time": "19:30",
+      "title": "Pop Concert",
+      "price": 100,
+      "location": "Concert Hall V",
+      "serialnumber": "314567890123",
+      "isonsale": true
+    },
+    {
+      "id": "79bc",
+      "userId": "01f0",
+      "category": "flights",
+      "date": "2024-06-10",
+      "time": "20:00",
+      "title": "Flight to Dubai",
+      "price": "500",
+      "location": "Tel Aviv",
+      "serialnumber": "123456852014",
+      "isonsale": true
+    },
+    {
+      "id": "caf9",
+      "userId": "user1",
+      "category": "sports",
+      "date": "2024-06-05",
+      "title": "asdasdsad",
+      "price": "5",
+      "location": "asdasd",
+      "serialnumber": "123123124",
+      "isonsale": true
+    },
+    {
+      "id": "a42a",
+      "userId": "user1",
+      "category": "other",
+      "date": "2024-06-04",
+      "title": "asdasdasdasd",
+      "price": "12312",
+      "location": "asdasd",
+      "serialnumber": "123123123",
+      "isonsale": true
+    }
+  ]
+}

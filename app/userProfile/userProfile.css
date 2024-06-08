@@ -1,0 +1,210 @@
+.user_profile_wrapper {
+  margin-block: 20px;
+  margin-inline: 100px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.user_profile h2 {
+  color: #333;
+  font-size: 1.5rem;
+}
+
+.user_info_wrapper {
+  margin-bottom: 20px;
+}
+
+.user_info_wrapper p {
+  margin: 10px 0;
+  color: #555;
+}
+
+.user_tickets_info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 20px;
+}
+
+/* .user_tickets_info button {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+} */
+/* .profile_buttons_wrapper {
+    display: flex;
+} */
+
+.user_details_wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.user_tickets_info button:hover {
+  background-color: #0056b3;
+}
+
+#pagesDesc {
+  color: white;
+}
+
+.sign_out_and_hello_name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.sign_out_and_hello_name button {
+  padding: 8px;
+  font-size: 12px;
+}
+
+.pageActionButton {
+  background-color: #4a3e77;
+  padding: 4px 8px 4px 8px;
+}
+
+.tickets_list {
+  align-self: stretch;
+}
+
+.ticket_card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.ticket_card:hover {
+  background-color: #d9d8d8;
+  transform: translateX(-10px);
+}
+
+.ticket_card:hover {
+  background-color: #d9d8d8;
+}
+
+.ticket_date {
+  font-size: 14px;
+  text-align: center;
+  padding-right: 20px;
+}
+
+.ticket_date div:first-child {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.ticket_info {
+  flex: 1;
+  padding-left: 20px;
+  border-left: solid 1px #ddd;
+}
+
+.ticket_title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.ticket_location,
+.ticket_seller,
+.ticket_remaining {
+  font-size: 14px;
+  color: #555;
+}
+
+.ticket_action {
+  display: flex;
+  align-items: center;
+}
+
+.see_tickets {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  padding: 4px;
+  background-color: #d0d0d3;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.see_tickets:hover {
+  background-color: #b0b0b3;
+}
+
+.see_tickets::before {
+  content: "❤️";
+  margin-right: 5px;
+}
+
+/* 
+@media screen and (max-width: 900px) {
+    .user_profile_wrapper {
+        margin-inline: 50px;
+    }
+
+    .user_info_wrapper p {
+        font-size: 14px;
+    }
+
+    .user_info_wrapper button {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+} */
+
+@media screen and (max-width: 900px) {
+  .main{
+    display: flex;
+    flex-direction: column;
+  }
+  .user_details_wrapper {
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 1.5rem;
+  }
+  .user_details_wrapper p {
+   margin: 0;
+  }
+
+  .user_profile_wrapper {
+    width: 90vw;
+    /* margin-inline: 1rem; */
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .ticket_card div {
+    font-size: 12px;
+  }
+  .ticket_date div:first-child {
+    font-size: 14px;
+}
+}
+
+@media screen and (max-width: 440px) {
+  .user_profile_wrapper a{
+    font-size: 8px;
+  }
+}
